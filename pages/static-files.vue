@@ -35,3 +35,11 @@
     <div class="divider"></div>
     <QuickNav :menu-items="subMenuWelcome" />
 </template>
+
+<script lang="ts" setup>
+const title = "Fiber | Static files";
+useSeoMeta({
+    title: title,
+    ogTitle: title,
+});
+</script>

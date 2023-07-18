@@ -19,3 +19,11 @@
     <div class="divider"></div>
     <QuickNav :menu-items="subMenuWelcome" />
 </template>
+
+<script lang="ts" setup>
+const title = "Fiber | Hello World Example";
+useSeoMeta({
+    title: title,
+    ogTitle: title,
+});
+</script>

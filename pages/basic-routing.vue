@@ -47,3 +47,11 @@
     <div class="divider"></div>
     <QuickNav :menu-items="subMenuWelcome" />
 </template>
+
+<script lang="ts" setup>
+const title = "Fiber | Basic Routing";
+useSeoMeta({
+    title: title,
+    ogTitle: title,
+});
+</script>

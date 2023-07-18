@@ -1,7 +1,9 @@
 <template>
     <div class="flex flex-col grow items-center">
-        <h1 class="text-5xl md:text-8xl font-black text-center max-w-screen-xl my-12 px-6 md:px-12">
-            The GO Web-Framework for Gophers
+        <h1
+            class="text-5xl md:text-8xl font-black text-center max-w-screen-xl my-12 px-6 md:px-12"
+        >
+            {{ title }}
         </h1>
         <p class="text-xl text-center max-w-screen-md px-6 md:px-12">
             Fiber is a Express-inspired Go web framework built on top of
@@ -15,7 +17,9 @@
                 <Code path="/snippets/index-1" />
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
+        >
             <div class="flex flex-col justify-center grow">
                 <h2 class="text-4xl font-bold">Robust Routing</h2>
                 <P>
@@ -28,7 +32,9 @@
                 <Code path="/snippets/index-2" />
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12"
+        >
             <div class="flex flex-col grow w-full max-w-screen-sm">
                 <Code path="/snippets/index-3" />
             </div>
@@ -41,7 +47,9 @@
                 </P>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
+        >
             <div class="flex flex-col justify-center grow">
                 <h2 class="text-4xl font-bold">API-ready</h2>
                 <P>
@@ -54,7 +62,9 @@
                 <Code path="/snippets/index-4" />
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12"
+        >
             <div class="flex flex-col grow w-full max-w-screen-sm">
                 <Code path="/snippets/index-5" />
             </div>
@@ -67,7 +77,9 @@
                 </P>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
+        >
             <div class="flex flex-col justify-center grow">
                 <h2 class="text-4xl font-bold">Low Memory Footprint</h2>
                 <P>
@@ -88,7 +100,9 @@
                 </P>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12"
+        >
             <div class="flex flex-col justify-center grow">
                 <h2 class="text-4xl font-bold">Template Engines</h2>
                 <P>
@@ -101,7 +115,9 @@
                 <Code path="/snippets/index-6" />
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
+        >
             <div class="flex flex-col grow w-full max-w-screen-sm">
                 <Code path="/snippets/index-7" />
             </div>
@@ -114,7 +130,9 @@
                 </P>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12">
+        <div
+            class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12"
+        >
             <div class="flex flex-col justify-center grow">
                 <h2 class="text-4xl font-bold">Rate Limiter</h2>
                 <P>
@@ -132,5 +150,15 @@
 <script lang="ts" setup>
 definePageMeta({
     layout: "home",
+});
+
+const title = "The GO Web-Framework for Gophers";
+const description =
+    "Fiber is a Express-inspired Go web framework built on top of Fasthttp, the fastest HTTP engine for Go. It's designed to ease things up for fast development with zero memory allocation and performance in mind.";
+useSeoMeta({
+    title: title,
+    ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>
