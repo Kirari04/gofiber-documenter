@@ -3,7 +3,7 @@ export const subMenuWelcome: Array<{
     name: string;
 }> = [
     {
-        href: "/",
+        href: "/welcome",
         name: "Welcome",
     },
     {

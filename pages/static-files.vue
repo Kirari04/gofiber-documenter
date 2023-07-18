@@ -1,5 +1,5 @@
 <template>
-    <div class="flex grow">
+    <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
             <H1>Static files</H1>
             <P>
@@ -29,10 +29,9 @@
                 <Tag>./public</Tag> directory:
             </P>
             <Code path="/snippets/static-files-3" />
-
-            <div class="divider"></div>
-            <QuickNav :menu-items="subMenuWelcome" />
         </div>
         <SubMenu :menu-items="subMenuWelcome" />
     </div>
+    <div class="divider"></div>
+    <QuickNav :menu-items="subMenuWelcome" />
 </template>

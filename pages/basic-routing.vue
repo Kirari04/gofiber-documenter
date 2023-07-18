@@ -1,5 +1,5 @@
 <template>
-    <div class="flex grow">
+    <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
             <H1>Basic routing</H1>
             <P>
@@ -41,10 +41,9 @@
             <Code path="/snippets/basic-routing-4" />
             <H2> Wildcards </H2>
             <Code path="/snippets/basic-routing-5" />
-
-            <div class="divider"></div>
-            <QuickNav :menu-items="subMenuWelcome" />
         </div>
         <SubMenu :menu-items="subMenuWelcome" />
     </div>
+    <div class="divider"></div>
+    <QuickNav :menu-items="subMenuWelcome" />
 </template>

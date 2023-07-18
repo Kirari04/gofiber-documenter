@@ -1,5 +1,5 @@
 <template>
-    <div :class="props.isMobile ? 'drawer' : 'drawer drawer-open'">
+    <div :class="props.isMobile ? 'drawer z-10' : 'drawer drawer-open'">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content" v-if="props.isMobile">
             <label for="my-drawer" class="btn btn-ghost btn-circle">
@@ -20,7 +20,7 @@
                         />
                     </div>
                 </li>
-                <li v-if="props.isMobile"><nuxtLink>Home</nuxtLink></li>
+                <li v-if="props.isMobile"><nuxtLink to="/welcome">Documentation</nuxtLink></li>
                 <li v-if="props.isMobile"><nuxtLink>Examples</nuxtLink></li>
                 <li v-if="props.isMobile">
                     <a href="https://gofiber.io/support" target="_blank">
@@ -81,7 +81,7 @@ type Navstruct = {
 const navstruct: Array<Navstruct> = [
     {
         title: props.isMobile ? undefined : "Welcome",
-        href: props.isMobile ? undefined : "/",
+        href: props.isMobile ? undefined : "/welcome",
     },
     {
         title: "Api",

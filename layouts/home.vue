@@ -3,14 +3,11 @@
         class="flex flex-col items-center"
         :data-theme="isLightTheme ? 'light' : 'dark'"
     >
-        <div class="flex flex-col w-full  max-w-screen-2xl">
+        <div class="flex flex-col w-full max-w-screen-2xl">
             <NuxtLoadingIndicator />
             <Navbar />
             <div class="flex grow max-w-full">
-                <aside class="hidden md:flex">
-                    <Drawer :isMobile="false" />
-                </aside>
-                <main class="grow p-4 max-w-full">
+                <main class="grow max-w-full">
                     <slot />
                 </main>
             </div>

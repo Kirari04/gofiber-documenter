@@ -14,7 +14,7 @@
             <div class="flex items-center flex-1">
                 <Logo />
                 <ul class="menu menu-horizontal px-1">
-                    <li><nuxtLink to="/">Home</nuxtLink></li>
+                    <li><nuxtLink to="/welcome">Documentation</nuxtLink></li>
                     <li><nuxtLink>Examples</nuxtLink></li>
                     <li>
                         <a href="https://gofiber.io/support" target="_blank">

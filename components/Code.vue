@@ -1,9 +1,11 @@
 <template>
     <div
         data-theme="dark"
-        class="flex items-center bg-base-300 p-4 relative rounded-box"
+        class="flex max-w-full justify-start overflow-auto items-center bg-base-300 p-4 relative rounded-box"
     >
-        <div><ContentDoc :path="path" /></div>
+        <div class="w-0">
+            <ContentDoc :path="path" />
+        </div>
         <button @click="copy" class="btn btn-square btn-ghost absolute right-2">
             <Icon icon="copy" />
         </button>

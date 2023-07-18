@@ -1,19 +1,20 @@
 <template>
-    <div class="flex grow">
-        <div class="flex flex-col grow">
+    <div class="flex flex-col-reverse md:flex-row grow max-w-full">
+        <div class="flex flex-col grow max-w-full">
             <H1>Zero Allocation</H1>
             <P>
                 Some values returned from <B>*fiber.Ctx</B> are
                 <B>not</B> immutable by default.
             </P>
             <P>
-                Because fiber is optimized for <B>high-performance</B>, values returned
-                from <B>fiber.Ctx</B> are <B>not</B> immutable by default and will be re-used
-                across requests. As a rule of thumb, you <B>must</B> only use context
-                values within the handler, and you <B>must not</B> keep any references.
-                As soon as you return from the handler, any values you have
-                obtained from the context will be re-used in future requests and
-                will change below your feet. Here is an example:
+                Because fiber is optimized for <B>high-performance</B>, values
+                returned from <B>fiber.Ctx</B> are <B>not</B> immutable by
+                default and will be re-used across requests. As a rule of thumb,
+                you <B>must</B> only use context values within the handler, and
+                you <B>must not</B> keep any references. As soon as you return
+                from the handler, any values you have obtained from the context
+                will be re-used in future requests and will change below your
+                feet. Here is an example:
             </P>
 
             <Code path="/snippets/zero-allocation-1" />
@@ -49,10 +50,9 @@
             </P>
 
             <Code path="/snippets/zero-allocation-4" />
-
-            <div class="divider"></div>
-            <QuickNav :menu-items="subMenuWelcome" />
         </div>
         <SubMenu :menu-items="subMenuWelcome" />
     </div>
+    <div class="divider"></div>
+    <QuickNav :menu-items="subMenuWelcome" />
 </template>

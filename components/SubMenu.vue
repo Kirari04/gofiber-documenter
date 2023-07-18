@@ -1,5 +1,5 @@
 <template>
-    <ul class="menu bg-base-200 shrink-0 w-56 rounded-box ml-4">
+    <ul class="menu bg-base-200 shrink-0 rounded-box mb-4 md:mb-0 md:ml-4">
         <li v-for="menuItem in menuItems">
             <nuxtLink :to="menuItem.href"> {{ menuItem.name }} </nuxtLink>
         </li>
