@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
-            <H1>🚀 App - xxx</H1>
+            <H1>🧠 Ctx - xxx</H1>
             <P> xxx </P>
             <div class="alert alert-info mb-6">
                 <Icon icon="info" />
@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts" setup>
-const title = "Fiber | 🚀 App - xxx";
+const title = "Fiber | 🧠 Ctx - xxx";
 const description = "xxx";
 
 useSeoMeta({

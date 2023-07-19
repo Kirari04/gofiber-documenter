@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
-            <H1>🚀 App - Accepts</H1>
+            <H1>🧠 Ctx - Accepts</H1>
             <P>
                 Checks, if the specified <B>extensions</B> or
                 <B>content types</B> are acceptable.
@@ -39,7 +39,7 @@
 </template>
 
 <script lang="ts" setup>
-const title = "Fiber | 🚀 App - Accepts";
+const title = "Fiber | 🧠 Ctx - Accepts";
 const description =
     "Checks, if the specified extensions or content types are acceptable.";
 
