@@ -17,6 +17,7 @@ for (( i = 1; i <= num_files; i++ )); do
     echo "\`\`\`go" > "$new_file_name"
     echo "" >> "$new_file_name"
     echo "\`\`\`" >> "$new_file_name"
+    codium "$new_file_name"
 done;
 
 echo "$num_files files created with the filename pattern: ${file_name}-X.md"
