@@ -2,12 +2,20 @@
     <div :class="props.isMobile ? 'drawer z-10' : 'drawer drawer-open'">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content" v-if="props.isMobile">
-            <label for="my-drawer" class="btn btn-ghost btn-circle">
+            <label
+                aria-label="Secundary Menu Button Open Toggle"
+                for="my-drawer"
+                class="btn btn-ghost btn-circle"
+            >
                 <Icon icon="menu" class="fill-current stroke-current w-6 h-6" />
             </label>
         </div>
         <div class="drawer-side">
-            <label for="my-drawer" class="drawer-overlay"></label>
+            <label
+                aria-label="Secundary Menu Button Close Toggle"
+                for="my-drawer"
+                class="drawer-overlay"
+            ></label>
 
             <ul
                 class="menu menu-vertical flex-nowrap overflow-auto bg-base-200 p-4 h-full text-base-content"

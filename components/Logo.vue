@@ -1,5 +1,9 @@
 <template>
-    <nuxt-link to="/" class="btn btn-ghost no-animation normal-case text-xl">
+    <nuxt-link
+        aria-label="Logo"
+        to="/"
+        class="btn btn-ghost no-animation normal-case text-xl"
+    >
         <Icon
             :icon="isLightTheme ? 'logolight' : 'logo'"
             class="h-full fill-current stroke-current"
