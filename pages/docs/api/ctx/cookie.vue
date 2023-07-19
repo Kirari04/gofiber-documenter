@@ -2,7 +2,7 @@
     <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
             <H1>🧠 Ctx - {{ name }}</H1>
-            <P> Set cookie </P>
+            <P> <B>Set cookie</B> with the usuall attributes </P>
             <Code :path="`/snippets/ctx-${name.toLowerCase()}-1`" />
             <P>
                 <B>{{ name }}</B> struct
