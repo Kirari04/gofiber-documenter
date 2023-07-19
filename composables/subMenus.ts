@@ -131,7 +131,7 @@ export const subMenuApp: Array<{
         name: "ListenMutualTLS",
     },
     {
-        href: "/api/app/ListenMutualTLSWithCertificate",
+        href: "/api/app/listenmutualtlswithcertificate",
         name: "ListenMutualTLSWithCertificate",
     },
     {
