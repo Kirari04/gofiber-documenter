@@ -7,27 +7,26 @@ export const subMenuWelcome: Array<{
         name: "Welcome",
     },
     {
-        href: "/installation",
+        href: "/welcome/installation",
         name: "Installation",
     },
     {
-        href: "/zero-allocation",
-        name: "Zero Allocation",
-    },
-    {
-        href: "/hello-world",
+        href: "/welcome/hello-world",
         name: "Hello, World!",
     },
     {
-        href: "/basic-routing",
+        href: "/welcome/basic-routing",
         name: "Basic routing",
     },
     {
-        href: "/static-files",
+        href: "/welcome/static-files",
         name: "Static files",
     },
+    {
+        href: "/welcome/zero-allocation",
+        name: "Zero Allocation",
+    },
 ];
-
 
 export const subMenuFiber: Array<{
     href: string;

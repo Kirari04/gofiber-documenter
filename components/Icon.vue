@@ -220,6 +220,16 @@
             d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
         ></path>
     </svg>
+    <svg
+        v-if="props.icon === 'top'"
+        :class="props.class ? props.class : defaultClass"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -960 960 960"
+    >
+        <path
+            d="M480-543 304-367q-9 9-21.5 9.5T261-366q-9-9-9-21.5t9-21.5l198-198q5-5 10-7t11-2q6 0 11 2t10 7l197 197q9 9 9.5 21t-8.5 21q-9 9-21.5 9t-21.5-9L480-543Z"
+        />
+    </svg>
 </template>
 
 <script lang="ts" setup>
@@ -240,7 +250,8 @@ const props = defineProps<{
         | "success"
         | "error"
         | "warning"
-        | "info";
+        | "info"
+        | "top";
     class?: string;
 }>();
 </script>

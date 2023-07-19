@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
-            <H1>Welcome</H1>
+            <H1>👋 Welcome</H1>
             <P>
                 An online API documentation with examples so you can start
                 building web apps with Fiber right away!
@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts" setup>
-const title = "Fiber | Welcome";
+const title = "Fiber | 👋 Welcome";
 useSeoMeta({
     title: title,
     ogTitle: title,

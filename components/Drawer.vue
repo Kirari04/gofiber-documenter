@@ -13,14 +13,16 @@
                 class="menu menu-vertical flex-nowrap overflow-auto bg-base-200 p-4 h-full text-base-content"
             >
                 <li v-if="props.isMobile">
-                    <div class="flex justify-center">
+                    <nuxtLink to="/" class="flex justify-center">
                         <Icon
                             icon="logo"
                             class="h-10 fill-current stroke-current"
                         />
-                    </div>
+                    </nuxtLink>
                 </li>
-                <li v-if="props.isMobile"><nuxtLink to="/welcome">👋 Documentation</nuxtLink></li>
+                <li v-if="props.isMobile">
+                    <nuxtLink to="/welcome">👋 Documentation</nuxtLink>
+                </li>
                 <li v-if="props.isMobile"><nuxtLink>🍳 Examples</nuxtLink></li>
                 <li v-if="props.isMobile">
                     <a href="https://gofiber.io/support" target="_blank">
