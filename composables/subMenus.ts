@@ -147,3 +147,104 @@ export const subMenuApp: Array<{
         name: "Hooks",
     },
 ];
+
+export const subMenuCtx: Array<{
+    href: string;
+    name: string;
+}> = [
+    {
+        href: "/api/ctx/accepts",
+        name: "Accepts",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },{
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+    {
+        href: "/api/ctx/xx",
+        name: "xxx",
+    },
+];
