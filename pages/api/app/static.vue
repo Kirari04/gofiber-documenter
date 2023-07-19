@@ -36,6 +36,7 @@
             <Code path="/snippets/app-static-5" />
             <P> Example implementation </P>
             <Code path="/snippets/app-static-6" />
+            <div class="flex basis-full"></div>
         </div>
         <SubMenu :menu-items="subMenuApp" />
     </div>
