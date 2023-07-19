@@ -111,7 +111,7 @@ const navstruct: Array<Navstruct> = [
             },
             {
                 title: "🧠 Ctx",
-                href: "/api/ctx",
+                href: "/api/ctx/accepts",
             },
             {
                 title: "📋 Constants",
