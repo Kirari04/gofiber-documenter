@@ -1,6 +1,11 @@
 <template>
     <div :class="props.isMobile ? 'drawer z-10' : 'drawer drawer-open'">
-        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <input
+            v-model="isOpen"
+            id="my-drawer"
+            type="checkbox"
+            class="drawer-toggle"
+        />
         <div class="drawer-content" v-if="props.isMobile">
             <label
                 aria-label="Secundary Menu Button Open Toggle"
@@ -81,7 +86,7 @@
 const props = defineProps<{
     isMobile: boolean;
 }>();
-
+const isOpen = ref(false);
 type Navstruct = {
     title?: string;
     href?: string;
@@ -173,4 +178,9 @@ const navstruct: Array<Navstruct> = [
         ],
     },
 ];
+
+const router = useRouter();
+router.afterEach(() => {
+    isOpen.value = false;
+});
 </script>
