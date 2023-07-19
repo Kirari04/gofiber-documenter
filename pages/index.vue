@@ -20,7 +20,7 @@
         <div
             class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
         >
-            <div class="flex flex-col justify-center grow">
+            <div class="flex flex-col justify-center grow md:pr-12">
                 <h2 class="text-4xl font-bold">Robust Routing</h2>
                 <P>
                     Setting up routes for your application has never been so
@@ -50,7 +50,7 @@
         <div
             class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
         >
-            <div class="flex flex-col justify-center grow">
+            <div class="flex flex-col justify-center grow md:pr-12">
                 <h2 class="text-4xl font-bold">API-ready</h2>
                 <P>
                     Are you building an API server? We've got you covered! Fiber
@@ -80,7 +80,7 @@
         <div
             class="flex flex-col md:flex-row w-full py-12 bg-base-200 px-6 md:px-12"
         >
-            <div class="flex flex-col justify-center grow">
+            <div class="flex flex-col justify-center grow md:pr-12">
                 <h2 class="text-4xl font-bold">Low Memory Footprint</h2>
                 <P>
                     Fiber's low memory footprint allows you to implement
@@ -103,7 +103,7 @@
         <div
             class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12"
         >
-            <div class="flex flex-col justify-center grow">
+            <div class="flex flex-col justify-center grow md:pr-12">
                 <h2 class="text-4xl font-bold">Template Engines</h2>
                 <P>
                     Want to use a different template engine in your Fiber app?
@@ -133,7 +133,7 @@
         <div
             class="flex flex-col md:flex-row w-full py-12 bg-base-100 px-6 md:px-12"
         >
-            <div class="flex flex-col justify-center grow">
+            <div class="flex flex-col justify-center grow md:pr-12">
                 <h2 class="text-4xl font-bold">Rate Limiter</h2>
                 <P>
                     With Fiber, limiting repeated requests to public APIs and
