@@ -1,13 +1,17 @@
 <template>
     <div class="flex flex-col-reverse md:flex-row grow">
         <div class="flex flex-col grow">
-            <H1>🧠 Ctx - xxx</H1>
+            <H1>🧠 Ctx - {{ name }}</H1>
             <P> xxx </P>
             <div class="alert alert-info mb-6">
                 <Icon icon="info" />
                 <span> xxxx </span>
             </div>
-            <Code path="/snippets/ctx-xxxx-1" />
+            <Code :path="`/snippets/ctx-${name.toLowerCase()}-1`" />
+            <P>
+                Example implementation of <B>{{ name }}</B>
+            </P>
+            <Code :path="`/snippets/ctx-${name.toLowerCase()}-2`" />
             <div class="flex basis-full"></div>
         </div>
         <SubMenu :menu-items="subMenuCtx" />
@@ -17,7 +21,8 @@
 </template>
 
 <script lang="ts" setup>
-const title = "Fiber | 🧠 Ctx - xxx";
+const name = "Append";
+const title = `Fiber | 🧠 Ctx - ${name}`;
 const description = "xxx";
 
 useSeoMeta({
