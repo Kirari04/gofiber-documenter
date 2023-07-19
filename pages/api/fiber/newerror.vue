@@ -18,8 +18,13 @@
 
 <script lang="ts" setup>
 const title = "Fiber | 📦 Fiber - New";
+const description =
+    "NewError creates a new HTTPError instance with an optional message.";
+
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

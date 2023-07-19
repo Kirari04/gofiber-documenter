@@ -38,8 +38,12 @@
 
 <script lang="ts" setup>
 const title = "Fiber | Static files";
+const description =
+    "To serve static files such as images, CSS, and JavaScript files, replace your function handler with a file or directory string.";
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

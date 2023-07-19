@@ -615,8 +615,11 @@
 
 <script lang="ts" setup>
 const title = "Fiber | 📦 Fiber - Config";
+const description = "You can pass an optional Config when creating a new Fiber instance."
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

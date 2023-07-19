@@ -18,8 +18,12 @@
 
 <script lang="ts" setup>
 const title = "Fiber | Installation";
+const description =
+    "First of all, download and install Go. 1.17 or higher is required. Installation is done using the go get command:";
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

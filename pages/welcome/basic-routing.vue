@@ -50,8 +50,12 @@
 
 <script lang="ts" setup>
 const title = "Fiber | Basic Routing";
+const description =
+    "Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, PUT, POST, etc.).";
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

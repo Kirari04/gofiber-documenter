@@ -22,8 +22,12 @@
 
 <script lang="ts" setup>
 const title = "Fiber | Hello World Example";
+const description =
+    "Embedded below is essentially the most straightforward Fiber app you can create:";
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

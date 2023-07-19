@@ -59,8 +59,13 @@
 
 <script lang="ts" setup>
 const title = "Fiber | Zero Allocation";
+const description =
+    "Because fiber is optimized for high-performance, values returned from fiber.Ctx are not immutable by default and will be re-used across requests. As a rule of thumb, you must only use context values within the handler, and you must not keep any references.";
+
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

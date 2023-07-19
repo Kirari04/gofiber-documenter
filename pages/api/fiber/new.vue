@@ -20,8 +20,12 @@
 
 <script lang="ts" setup>
 const title = "Fiber | 📦 Fiber - New";
+const description = "This method creates a new App named instance. You can pass optional config when creating a new instance."
+
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>

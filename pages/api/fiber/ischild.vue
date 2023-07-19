@@ -18,8 +18,12 @@
 
 <script lang="ts" setup>
 const title = "Fiber | 📦 Fiber - New";
+const description = "IsChild determines if the current process is a result of Prefork."
+
 useSeoMeta({
     title: title,
     ogTitle: title,
+    description: description,
+    ogDescription: description,
 });
 </script>
