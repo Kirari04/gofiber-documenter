@@ -10,6 +10,7 @@
         </div>
         <button
             @click="copy"
+            aria-label="Copy Snippet"
             class="btn btn-square bg-opacity-40 backdrop-blur-sm absolute right-2 z-10"
         >
             <Icon icon="copy" />

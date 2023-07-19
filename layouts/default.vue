@@ -26,6 +26,7 @@
             </div>
             <button
                 @click="scrollToTop"
+                aria-label="Scroll to top"
                 :class="
                     scrollPos < 150
                         ? 'btn btn-neutral btn-circle fixed bottom-6 right-6 z-10 transition-all pointer-events-none scale-50 opacity-0'
