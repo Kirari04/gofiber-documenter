@@ -8,7 +8,7 @@ export default defineNuxtConfig({
             theme: {
                 default: "github-dark",
             },
-            preload: ["shell", "go"],
+            preload: ["shell", "go", "json"],
         },
     },
 });
