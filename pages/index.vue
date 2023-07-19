@@ -152,7 +152,7 @@ definePageMeta({
     layout: "home",
 });
 
-const title = "The GO Web-Framework for Gophers";
+const title = "The Web-Framework for Gophers";
 const description =
     "Fiber is a Express-inspired Go web framework built on top of Fasthttp, the fastest HTTP engine for Go. It's designed to ease things up for fast development with zero memory allocation and performance in mind.";
 useSeoMeta({

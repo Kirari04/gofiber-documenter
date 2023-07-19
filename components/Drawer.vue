@@ -34,7 +34,7 @@
                     </nuxtLink>
                 </li>
                 <li v-if="props.isMobile">
-                    <nuxtLink to="/welcome">👋 Documentation</nuxtLink>
+                    <nuxtLink to="/docs/welcome">👋 Documentation</nuxtLink>
                 </li>
                 <li v-if="props.isMobile"><nuxtLink>🍳 Examples</nuxtLink></li>
                 <li v-if="props.isMobile">
@@ -96,38 +96,38 @@ type Navstruct = {
 const navstruct: Array<Navstruct> = [
     {
         title: props.isMobile ? undefined : "👋 Welcome",
-        href: props.isMobile ? undefined : "/welcome",
+        href: props.isMobile ? undefined : "/docs/welcome",
     },
     {
         title: "Api",
         ls: [
             {
                 title: "📦 Fiber",
-                href: "/api/fiber/new",
+                href: "/docs/api/fiber/new",
             },
             {
                 title: "🚀 App",
-                href: "/api/app/static",
+                href: "/docs/api/app/static",
             },
             {
                 title: "🧠 Ctx",
-                href: "/api/ctx/accepts",
+                href: "/docs/api/ctx/accepts",
             },
             {
                 title: "📋 Constants",
-                href: "/api/constants",
+                href: "/docs/api/constants",
             },
             {
                 title: "🌎 Client",
-                href: "/api/client",
+                href: "/docs/api/client",
             },
             {
                 title: "📃 Log",
-                href: "/api/log",
+                href: "/docs/api/log",
             },
             {
                 title: "🧬 Middleware",
-                href: "/api/middleware",
+                href: "/docs/api/middleware",
             },
         ],
     },
@@ -136,31 +136,31 @@ const navstruct: Array<Navstruct> = [
         ls: [
             {
                 title: "🔌 Routing",
-                href: "/guide/routing",
+                href: "/docs/guide/routing",
             },
             {
                 title: "🎭 Grouping",
-                href: "/guide/grouping",
+                href: "/docs/guide/grouping",
             },
             {
                 title: "📝 Templates",
-                href: "/guide/templates",
+                href: "/docs/guide/templates",
             },
             {
                 title: "🐛 Error Handling",
-                href: "/guide/error-handling",
+                href: "/docs/guide/error-handling",
             },
             {
                 title: "🔎 Validation",
-                href: "/guide/validation",
+                href: "/docs/guide/validation",
             },
             {
                 title: "🪝 Hooks",
-                href: "/guide/hooks",
+                href: "/docs/guide/hooks",
             },
             {
                 title: "⚡ Make Fiber Faster",
-                href: "/guide/faster-fiber",
+                href: "/docs/guide/faster-fiber",
             },
         ],
     },
@@ -169,11 +169,11 @@ const navstruct: Array<Navstruct> = [
         ls: [
             {
                 title: "🤔 FAQ",
-                href: "/extra/faq",
+                href: "/docs/extra/faq",
             },
             {
                 title: "📊 Benchmarks",
-                href: "/extra/benchmarks",
+                href: "/docs/extra/benchmarks",
             },
         ],
     },

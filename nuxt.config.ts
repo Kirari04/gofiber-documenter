@@ -10,5 +10,5 @@ export default defineNuxtConfig({
             },
             preload: ["shell", "go", "json"],
         },
-    },
+    }
 });

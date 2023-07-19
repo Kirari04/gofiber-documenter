@@ -3,27 +3,27 @@ export const subMenuWelcome: Array<{
     name: string;
 }> = [
     {
-        href: "/welcome",
+        href: "/docs/welcome",
         name: "Welcome",
     },
     {
-        href: "/welcome/installation",
+        href: "/docs/welcome/installation",
         name: "Installation",
     },
     {
-        href: "/welcome/hello-world",
+        href: "/docs/welcome/hello-world",
         name: "Hello, World!",
     },
     {
-        href: "/welcome/basic-routing",
+        href: "/docs/welcome/basic-routing",
         name: "Basic routing",
     },
     {
-        href: "/welcome/static-files",
+        href: "/docs/welcome/static-files",
         name: "Static files",
     },
     {
-        href: "/welcome/zero-allocation",
+        href: "/docs/welcome/zero-allocation",
         name: "Zero Allocation",
     },
 ];
@@ -33,19 +33,19 @@ export const subMenuFiber: Array<{
     name: string;
 }> = [
     {
-        href: "/api/fiber/new",
+        href: "/docs/api/fiber/new",
         name: "New",
     },
     {
-        href: "/api/fiber/config",
+        href: "/docs/api/fiber/config",
         name: "Config",
     },
     {
-        href: "/api/fiber/newerror",
+        href: "/docs/api/fiber/newerror",
         name: "NewError",
     },
     {
-        href: "/api/fiber/ischild",
+        href: "/docs/api/fiber/ischild",
         name: "IsChild",
     },
 ];
@@ -55,95 +55,95 @@ export const subMenuApp: Array<{
     name: string;
 }> = [
     {
-        href: "/api/app/static",
+        href: "/docs/api/app/static",
         name: "Static",
     },
     {
-        href: "/api/app/route-handlers",
+        href: "/docs/api/app/route-handlers",
         name: "Route Handlers",
     },
     {
-        href: "/api/app/mount",
+        href: "/docs/api/app/mount",
         name: "Mount",
     },
     {
-        href: "/api/app/mountpath",
+        href: "/docs/api/app/mountpath",
         name: "MountPath",
     },
     {
-        href: "/api/app/group",
+        href: "/docs/api/app/group",
         name: "Group",
     },
     {
-        href: "/api/app/route",
+        href: "/docs/api/app/route",
         name: "Route",
     },
     {
-        href: "/api/app/server",
+        href: "/docs/api/app/server",
         name: "Server",
     },
     {
-        href: "/api/app/server-shutdown",
+        href: "/docs/api/app/server-shutdown",
         name: "Server Shutdown",
     },
     {
-        href: "/api/app/handlerscount",
+        href: "/docs/api/app/handlerscount",
         name: "HandlersCount",
     },
     {
-        href: "/api/app/stack",
+        href: "/docs/api/app/stack",
         name: "Stack",
     },
     {
-        href: "/api/app/name",
+        href: "/docs/api/app/name",
         name: "Name",
     },
     {
-        href: "/api/app/getroute",
+        href: "/docs/api/app/getroute",
         name: "GetRoute",
     },
     {
-        href: "/api/app/getroutes",
+        href: "/docs/api/app/getroutes",
         name: "GetRoutes",
     },
     {
-        href: "/api/app/config",
+        href: "/docs/api/app/config",
         name: "Config",
     },
     {
-        href: "/api/app/handler",
+        href: "/docs/api/app/handler",
         name: "Handler",
     },
     {
-        href: "/api/app/listen",
+        href: "/docs/api/app/listen",
         name: "Listen",
     },
     {
-        href: "/api/app/listentls",
+        href: "/docs/api/app/listentls",
         name: "ListenTLS",
     },
     {
-        href: "/api/app/listentlswithcertificate",
+        href: "/docs/api/app/listentlswithcertificate",
         name: "ListenTLSWithCertificate",
     },
     {
-        href: "/api/app/listenmutualtls",
+        href: "/docs/api/app/listenmutualtls",
         name: "ListenMutualTLS",
     },
     {
-        href: "/api/app/listenmutualtlswithcertificate",
+        href: "/docs/api/app/listenmutualtlswithcertificate",
         name: "ListenMutualTLSWithCertificate",
     },
     {
-        href: "/api/app/listener",
+        href: "/docs/api/app/listener",
         name: "Listener",
     },
     {
-        href: "/api/app/test",
+        href: "/docs/api/app/test",
         name: "Test",
     },
     {
-        href: "/api/app/hooks",
+        href: "/docs/api/app/hooks",
         name: "Hooks",
     },
 ];
@@ -153,98 +153,98 @@ export const subMenuCtx: Array<{
     name: string;
 }> = [
     {
-        href: "/api/ctx/accepts",
+        href: "/docs/api/ctx/accepts",
         name: "Accepts",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },{
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
     {
-        href: "/api/ctx/xx",
+        href: "/docs/api/ctx/xx",
         name: "xxx",
     },
 ];
