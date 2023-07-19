@@ -1,12 +1,14 @@
 <template>
-    <div
-        data-theme="dark"
-        class="flex max-w-full justify-start overflow-auto items-center bg-base-300 p-4 relative rounded-box"
-    >
-        <div class="w-0">
-            <ContentDoc :path="path" />
+    <div class="relative flex flex-col grow justify-center max-w-full">
+        <div
+            data-theme="dark"
+            class="flex max-w-full justify-start overflow-auto items-center bg-base-300 p-4 relative rounded-box"
+        >
+            <div class="w-0">
+                <ContentDoc :path="path" />
+            </div>
         </div>
-        <button @click="copy" class="btn btn-square btn-ghost absolute right-2">
+        <button @click="copy" class="btn btn-square bg-opacity-40 backdrop-blur-sm absolute right-2 z-10">
             <Icon icon="copy" />
         </button>
     </div>
