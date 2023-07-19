@@ -88,7 +88,7 @@ const navstruct: Array<Navstruct> = [
         ls: [
             {
                 title: "📦 Fiber",
-                href: "/api/fiber",
+                href: "/api/fiber/new",
             },
             {
                 title: "🚀 App",

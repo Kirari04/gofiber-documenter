@@ -178,10 +178,53 @@
             d="m297-481 177 177q9 9 9 21t-9 21q-9 9-21 9t-21-9L234-460q-5-5-7-10t-2-11q0-6 2-11t7-10l198-198q9-9 21-9t21 9q9 9 9 21t-9 21L297-481Zm253 0 177 177q9 9 9 21t-9 21q-9 9-21 9t-21-9L487-460q-5-5-7-10t-2-11q0-6 2-11t7-10l198-198q9-9 21-9t21 9q9 9 9 21t-9 21L550-481Z"
         />
     </svg>
+    <svg
+        v-if="props.icon === 'error'"
+        :class="props.class ? props.class : defaultClassStroke"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+    >
+        <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+    </svg>
+    <svg
+        v-if="props.icon === 'warning'"
+        :class="props.class ? props.class : defaultClassStroke"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+    >
+        <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+        />
+    </svg>
+    <svg
+        v-if="props.icon === 'info'"
+        :class="props.class ? props.class : defaultClassStroke"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+    >
+        <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        ></path>
+    </svg>
 </template>
 
 <script lang="ts" setup>
 const defaultClass = "fill-current w-6 h-6";
+const defaultClassStroke = "stroke-current w-6 h-6";
 const props = defineProps<{
     icon:
         | "sun"
@@ -194,7 +237,10 @@ const props = defineProps<{
         | "copy"
         | "right"
         | "left"
-        | "success";
+        | "success"
+        | "error"
+        | "warning"
+        | "info";
     class?: string;
 }>();
 </script>

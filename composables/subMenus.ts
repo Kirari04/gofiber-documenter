@@ -27,3 +27,26 @@ export const subMenuWelcome: Array<{
         name: "Static files",
     },
 ];
+
+
+export const subMenuFiber: Array<{
+    href: string;
+    name: string;
+}> = [
+    {
+        href: "/api/fiber/new",
+        name: "New",
+    },
+    {
+        href: "/api/fiber/config",
+        name: "Config",
+    },
+    {
+        href: "/api/fiber/newerror",
+        name: "NewError",
+    },
+    {
+        href: "/api/fiber/ischild",
+        name: "IsChild",
+    },
+];
