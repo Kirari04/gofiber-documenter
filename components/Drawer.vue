@@ -20,17 +20,17 @@
                         />
                     </div>
                 </li>
-                <li v-if="props.isMobile"><nuxtLink to="/welcome">Documentation</nuxtLink></li>
-                <li v-if="props.isMobile"><nuxtLink>Examples</nuxtLink></li>
+                <li v-if="props.isMobile"><nuxtLink to="/welcome">👋 Documentation</nuxtLink></li>
+                <li v-if="props.isMobile"><nuxtLink>🍳 Examples</nuxtLink></li>
                 <li v-if="props.isMobile">
                     <a href="https://gofiber.io/support" target="_blank">
-                        Donate
+                        ☕ Donate
                     </a>
                 </li>
 
                 <li v-if="props.isMobile" tabindex="0">
                     <details>
-                        <summary>Extra</summary>
+                        <summary>🧩 Extra</summary>
                         <ul class="p-2 bg-base-200">
                             <li><nuxtLink>Contrib</nuxtLink></li>
                             <li><nuxtLink>Storage</nuxtLink></li>
@@ -80,43 +80,39 @@ type Navstruct = {
 };
 const navstruct: Array<Navstruct> = [
     {
-        title: props.isMobile ? undefined : "Welcome",
+        title: props.isMobile ? undefined : "👋 Welcome",
         href: props.isMobile ? undefined : "/welcome",
     },
     {
         title: "Api",
         ls: [
             {
-                title: "Fiber",
+                title: "📦 Fiber",
                 href: "/api/fiber",
             },
             {
-                title: "App",
+                title: "🚀 App",
                 href: "/api/app",
             },
             {
-                title: "Ctx",
+                title: "🧠 Ctx",
                 href: "/api/ctx",
             },
             {
-                title: "Constants",
+                title: "📋 Constants",
                 href: "/api/constants",
             },
             {
-                title: "Client",
+                title: "🌎 Client",
                 href: "/api/client",
             },
             {
-                title: "Log",
+                title: "📃 Log",
                 href: "/api/log",
             },
             {
-                title: "Log",
-                href: "/api/log",
-            },
-            {
-                title: "Middleware",
-                href: "/category/-middleware",
+                title: "🧬 Middleware",
+                href: "/api/middleware",
             },
         ],
     },
@@ -124,31 +120,31 @@ const navstruct: Array<Navstruct> = [
         title: "Guide",
         ls: [
             {
-                title: "Routing",
+                title: "🔌 Routing",
                 href: "/guide/routing",
             },
             {
-                title: "Grouping",
+                title: "🎭 Grouping",
                 href: "/guide/grouping",
             },
             {
-                title: "Templates",
+                title: "📝 Templates",
                 href: "/guide/templates",
             },
             {
-                title: "Error Handling",
+                title: "🐛 Error Handling",
                 href: "/guide/error-handling",
             },
             {
-                title: "Validation",
+                title: "🔎 Validation",
                 href: "/guide/validation",
             },
             {
-                title: "Hooks",
+                title: "🪝 Hooks",
                 href: "/guide/hooks",
             },
             {
-                title: "Make Fiber Faster",
+                title: "⚡ Make Fiber Faster",
                 href: "/guide/faster-fiber",
             },
         ],
@@ -157,11 +153,11 @@ const navstruct: Array<Navstruct> = [
         title: "Extra",
         ls: [
             {
-                title: "FAQ",
+                title: "🤔 FAQ",
                 href: "/extra/faq",
             },
             {
-                title: "Benchmarks",
+                title: "📊 Benchmarks",
                 href: "/extra/benchmarks",
             },
         ],

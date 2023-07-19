@@ -14,17 +14,17 @@
             <div class="flex items-center flex-1">
                 <Logo />
                 <ul class="menu menu-horizontal px-1">
-                    <li><nuxtLink to="/welcome">Documentation</nuxtLink></li>
-                    <li><nuxtLink>Examples</nuxtLink></li>
+                    <li><nuxtLink to="/welcome">📖 Docs</nuxtLink></li>
+                    <li><nuxtLink>🍳 Examples</nuxtLink></li>
                     <li>
                         <a href="https://gofiber.io/support" target="_blank">
-                            Donate
+                            ☕ Donate
                         </a>
                     </li>
 
                     <li tabindex="0">
                         <details>
-                            <summary>Extra</summary>
+                            <summary>🧩 Extra</summary>
                             <ul class="p-2 bg-base-200">
                                 <li><nuxtLink>Contrib</nuxtLink></li>
                                 <li><nuxtLink>Storage</nuxtLink></li>
