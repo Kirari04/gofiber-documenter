@@ -13,17 +13,13 @@
                     Please read the Fasthttp Documentation for more information.
                 </span>
                 <Ref
-                        href="https://pkg.go.dev/github.com/valyala/fasthttp?tab=doc"
-                        :blank="true"
-                    >
-                        <span class="btn">Read More</span>
-                    </Ref>
+                    href="https://pkg.go.dev/github.com/valyala/fasthttp?tab=doc"
+                    :blank="true"
+                >
+                    <span class="btn">Read More</span>
+                </Ref>
             </div>
             <Code :path="`/snippets/ctx-${name.toLowerCase()}-1`" />
-            <P>
-                Example implementation of <B>{{ name }}</B>
-            </P>
-            <Code :path="`/snippets/ctx-${name.toLowerCase()}-2`" />
             <div class="flex basis-full"></div>
         </div>
         <SubMenu :menu-items="subMenuCtx" />
