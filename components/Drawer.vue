@@ -107,7 +107,7 @@ const navstruct: Array<Navstruct> = [
             },
             {
                 title: "🚀 App",
-                href: "/api/app",
+                href: "/api/app/static",
             },
             {
                 title: "🧠 Ctx",
