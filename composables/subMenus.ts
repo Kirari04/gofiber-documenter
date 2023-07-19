@@ -157,8 +157,8 @@ export const subMenuCtx: Array<{
         name: "Accepts",
     },
     {
-        href: "/docs/api/ctx/xx",
-        name: "xxx",
+        href: "/docs/api/ctx/allparams",
+        name: "AllParams",
     },
     {
         href: "/docs/api/ctx/xx",

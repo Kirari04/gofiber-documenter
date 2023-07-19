@@ -7,13 +7,13 @@
                 <Icon icon="info" />
                 <span> xxxx </span>
             </div>
-            <Code path="/snippets/app-xxxx-1" />
+            <Code path="/snippets/ctx-xxxx-1" />
             <div class="flex basis-full"></div>
         </div>
-        <SubMenu :menu-items="subMenuApp" />
+        <SubMenu :menu-items="subMenuCtx" />
     </div>
     <div class="divider"></div>
-    <QuickNav :menu-items="subMenuApp" />
+    <QuickNav :menu-items="subMenuCtx" />
 </template>
 
 <script lang="ts" setup>
