@@ -5,10 +5,13 @@
             class="flex max-w-full justify-start overflow-auto items-center bg-base-300 p-4 relative rounded-box"
         >
             <div class="w-0">
-                <ContentDoc :path="path" />
+                <ContentDoc :path="path" :head="false" />
             </div>
         </div>
-        <button @click="copy" class="btn btn-square bg-opacity-40 backdrop-blur-sm absolute right-2 z-10">
+        <button
+            @click="copy"
+            class="btn btn-square bg-opacity-40 backdrop-blur-sm absolute right-2 z-10"
+        >
             <Icon icon="copy" />
         </button>
     </div>
