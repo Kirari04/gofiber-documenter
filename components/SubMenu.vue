@@ -1,8 +1,8 @@
 <template>
-    <div class="relative shrink-0">
-        <div class="flex max-h-[85vh] sticky top-4">
+    <div class="relative shrink-0 flex">
+        <div class="flex max-h-[calc(100vh-450px)] min-h-[150px] md:max-h-[calc(100vh-100px)] sticky top-4 grow">
             <ul
-                class="menu bg-base-200 flex-col flex-nowrap overflow-auto shrink-0 md:w-48 rounded-box mb-4 md:mb-0 md:ml-4"
+                class="menu bg-base-200 flex-col flex-nowrap overflow-auto shrink-0 grow md:w-48 rounded-box mb-4 md:mb-0 md:ml-4"
             >
                 <li class="max-w-full" v-for="menuItem in menuItems">
                     <nuxtLink
