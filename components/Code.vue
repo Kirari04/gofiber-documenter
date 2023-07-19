@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex flex-col grow justify-center max-w-full">
+    <div class="relative group flex flex-col grow justify-center max-w-full">
         <div
             data-theme="dark"
             class="flex max-w-full justify-start overflow-auto items-center bg-base-300 p-4 relative rounded-box"
@@ -11,7 +11,7 @@
         <button
             @click="copy"
             aria-label="Copy Snippet"
-            class="btn btn-square bg-opacity-40 backdrop-blur-sm absolute right-2 z-10"
+            class="btn btn-square bg-opacity-40 backdrop-blur-sm absolute right-2 z-10 hidden group-hover:flex"
         >
             <Icon icon="copy" />
         </button>
